@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<div class="container">
+<body>
+	<h1> USER REGISTRATION FORM </h1>
+	<h4> We welcome you to our user registration site. Do follow the following rules for the registration!</h4>
+	<div class="new">
+	<p id="new">
+	<u1>
+			<li>Username: Should contain only alphanumeric characters (letters and numbers) and be between 3 and 20 characters long.</li>
+		
+			<li>Email: Should be a valid email address format (e.g., name@example.com).</li>
+			
+			<li>Password: Should be at least 8 characters long, containing at least one uppercase letter, one lowercase letter, one number, and one special character (e.g., @, #, $)</li>
+			
+			<li>Phone Number: Should be a valid phone number in the format +91 1234567890.</li>
+			
+	</u1>
+	</p>
+	</div>
+	<h4> REGISTRATION FORM </h4>
+  <form name="registrationForm" onsubmit="return validateForm()">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" name="username" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" name="password" required>
+    </div>
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" name="confirmPassword" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="text" name="phone" pattern="\+91 [0-9]{10}" required>
+    </div>
+    <button type="submit">Register</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</div>
+</html>
+
