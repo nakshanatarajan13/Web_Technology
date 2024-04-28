@@ -1,0 +1,80 @@
+
+
+  .container {
+    max-width: 850px;
+    margin: auto;
+    background-color: #F8F6F4;
+    border-style: solid;
+    
+
+}
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:170px;
+    width: 60.5%;
+    background-color: #E8D5C4;
+    margin-bottom: 40px;
+	
+	
+    }
+   
+    #name {
+        float:left;
+        margin-left: 10px;
+        padding-bottom: 6px;
+        font-size: 20px;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+        color: #03001C;
+    }
+	
+	
+	
+	
+    
+    #email{
+        float:right;text-align: left;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        font-family:'Oswald', sans-serif;
+        color: #03001C;
+    }
+    
+
+    
+    a:hover {
+        font-weight: bold;
+    }
+    
+    .right
+    {
+        float: left;
+        margin-top: 50px;
+        padding-left:5px;
+        /*margin-right: -10px;
+        margin-left: 14%;*/
+        height: auto;
+        width: 98%;
+        background-color: #D5CEA3;
+        }
+    
+    .left
+       {
+        float: left;
+        margin-top: 50px;
+        /margin-right: -90px;
+        height: relative;
+        width: 10%;
+        background-color: #E8D5C4;
+        }
+		
+        .wrap {
+            margin-left: 30px;
+            margin-right: 20px;
+            margin-top: 150px;
+            
+            }
+        
