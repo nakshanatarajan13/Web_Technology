@@ -1,0 +1,24 @@
+Algorithm Explanation:
+
+1.Start by defining two functions: power(base, exponent) and isArmstrongNumber(number). The power function calculates the value of base raised to the power of exponent.
+
+2.In the isArmstrongNumber function, find the number of digits (n) in the given number by converting it to a string and calculating its length.
+
+3.Initialize a variable sum to 0, which will be used to store the sum of the nth power of each digit in the number.
+
+4.Create a temporary variable temp and set it to the value of the number. This temporary variable will be used for calculations.
+
+5.Use a while loop to iterate until temp becomes 0. In each iteration:
+a. Extract the last digit of temp using the modulo operator (%), and store it in a variable called digit.
+b. Add the nth power of digit to the sum.
+c. Remove the last digit from temp using the floor division operator (/).
+
+6.After the while loop, compare sum with the original number. If they are equal, return true, indicating that the number is an Armstrong number; otherwise, return false.
+
+7.In the main part of the script, prompt the user to enter a number with n digits and store the input in the userInput variable.
+
+8.Convert the userInput to an integer using parseInt and store it in the number variable.
+
+10.Call the isArmstrongNumber function with the number as an argument to check if the number is an Armstrong number.
+
+11.Display the result to the user using an alert box
